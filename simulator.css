@@ -1,0 +1,81 @@
+.simulator-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.simulator-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.simulator-header {
+  background: white;
+  padding: 35px 40px;
+  border-radius: 20px;
+  border-top: 5px solid #2563eb;
+  box-shadow: 0 8px 25px rgba(15,23,42,0.08);
+  margin-bottom: 30px;
+}
+
+.simulator-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.simulator-card h3 {
+  margin: 20px 0;
+  color: #2563eb;
+  font-size: 32px;
+}
+
+.simulator-card input {
+  width: 100%;
+}
+
+.results-row {
+  display: flex;
+  gap: 20px;
+}
+
+.result-card {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.result-card p {
+  color: #64748b;
+}
+
+.result-card h2 {
+  margin-top: 10px;
+  font-size: 36px;
+}
+.risk-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.risk-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  background: white;
+  color: #374151;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.risk-btn.active {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+}

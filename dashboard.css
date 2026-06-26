@@ -1,0 +1,173 @@
+.sidebar{
+  width:260px;
+  background:#0f172a;
+  color:white;
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+}
+
+.sidebar-logo {
+  margin-bottom: 50px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-menu div {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.active-menu {
+  background: #2563eb;
+}
+
+.dashboard-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.welcome-card,
+.summary-card,
+.portfolio-card,
+.brief-card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.welcome-card {
+  padding: 35px 40px;
+  border-top: 5px solid #2563eb;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(15,23,42,0.08);
+  max-width: 900px;
+}
+
+.welcome-card h1 {
+  font-size: 38px;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.welcome-card p {
+  font-size: 18px;
+  color: #475569;
+}
+
+.metrics{
+  display: flex;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.metric-card {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.metric-card p {
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.metric-card h2 {
+  font-size: 42px;
+  color: #0f172a;
+}
+
+.summary-card h2,
+.portfolio-card h2,
+.brief-card h2 {
+  margin-bottom: 15px;
+}
+
+.portfolio-card {
+  max-width: 900px;
+}
+
+.allocation-row {
+  margin-top: 20px;
+}
+
+.allocation-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.allocation-bar {
+  width: 100%;
+  height: 10px;
+  background: #e2e8f0;
+  border-radius: 999px;
+}
+
+.allocation-fill {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 999px;
+}
+
+.brief-card {
+  max-width: 900px;
+}
+.logout-btn{
+  width:100%;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  border:1px solid rgba(239,68,68,0.4);
+
+  background:transparent;
+
+  color:#f87171;
+
+  text-align:center;
+
+  cursor:pointer;
+
+  font-weight:600;
+
+  transition:0.2s ease;
+}
+
+.logout-btn:hover{
+  background:rgba(239,68,68,0.1);
+}
+.sidebar-footer{
+  margin-top:auto;
+  padding-top:20px;
+  border-top:1px solid rgba(255,255,255,0.15);
+}
+.user-info{
+  margin-bottom:15px;
+}
+
+.user-info h4{
+  font-size:15px;
+  margin-bottom:4px;
+}
+
+.user-info p{
+  font-size:13px;
+  opacity:0.7;
+}
